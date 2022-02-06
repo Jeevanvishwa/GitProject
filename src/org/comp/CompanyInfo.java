@@ -25,6 +25,12 @@ public static class Employee extends CompanyInfo {
 			System.out.println("Comp add"+"\n" + pincode);
 
 		}
+	public void EmpName(){
+		
+	System.out.println("pincode");
+		
+		
+	}
 		
 		public static void main(String[] args) {
 			
