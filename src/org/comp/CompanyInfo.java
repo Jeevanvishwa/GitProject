@@ -22,9 +22,16 @@ public class CompanyInfo {
 public static class Employee extends CompanyInfo {
 	
 	  private void EmpInfo(String add,int pincode) {
-			System.out.println("Comp add"+"\n" + pincode);
+			System.out.println("Comp add"+"\n" + pincode);	
 
 		}
+	  
+       private void EmpName(String Name) {
+		System.out.println("Emp Name"+Name);
+
+	}
+       
+	}
 		
 		public static void main(String[] args) {
 			
@@ -37,8 +44,7 @@ public static class Employee extends CompanyInfo {
 			Employee e = new Employee();
 		
 			e.EmpInfo("No.02 anna nagar,bypass,chennai", 623407);
-			
+			e.EmpName("Jeeva");
 	
 		}
-}
 }
